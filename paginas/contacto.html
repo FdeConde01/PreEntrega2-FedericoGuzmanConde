@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
+    <title>Snakers Cordoba</title>
+    <link rel="stylesheet" href="../estilos/style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__contenido">
+            <!-- Logo -->
+            <a class="header__contenido-logo" href="./index.html">
+                <img src="../recursos/imagenes/Logo-png.png" alt="logoheader" />
+            </a>
+            <!-- Navbar -->
+            <nav>
+                <ul class="header__contenido-navbar">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <!-- Contenido -->
+    <main>
+        <section class="formulario">
+            <form action="" class="formulario__contenido">
+                <div class="contacto__contenido">
+                    <h1 class="contacto__contenido-h1">Nuestros numeros de contactos son: </h1>
+                    <P>3513565350</P>
+                    <P>sneakerscordoba@gmail.com</P>
+                </div>
+                <!-- Formulario -->
+                <h1 class="formulario__contenido-h1">Si quiere que nosotros lo contactemos: </h1>
+                <label for="nombre">Ingrese su nombre y apellido: </label>
+                <input type="text" placeholder="Ingrese su nombre y apellido" id="nombre" />
+                <br />
+                <label for="mail">Ingrese su mail: </label>
+                <input type="email" placeholder="Ingrese su mail" id="mail" />
+                <br />
+                <label for="celular">Ingrese su celular: </label>
+                <input type="number" placeholder="Ingrese su celular" id="celular" />
+                <br />
+                <label for="consulta">Ingrese su consulta: </label>
+                <input type="text" placeholder="Ingrese su consulta" id="consulta" />
+                <br />
+                <button type="reset" class="limpiar">Limpiar</button>
+                <button type="submit" class="enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Pie de pagina -->
+    <footer>
+        <ul class="footer">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">WhatsApp</a></li>
+            <li><a href="">Ubicación</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
