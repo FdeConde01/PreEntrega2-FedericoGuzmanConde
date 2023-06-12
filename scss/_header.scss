@@ -1,0 +1,55 @@
+header{
+    margin-bottom: 40px;
+    background-color: white;
+    .header__anuncio{
+        background-color: white;
+        text-align: center;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        h1{
+            background-color: white;
+            color: $colorprincipal;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 200;
+        }
+    }
+    .header__contenido{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        border-bottom: 1px solid $colorprincipal;
+        .header__contenido-logo{
+            img{
+                width: 200px;
+                height: 100px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+        .header__contenido-navbar{
+            display: flex;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: 20px;
+            color: black;
+            text-align: right;
+            li{
+                margin: 0 15px;
+                a{
+                    color: black;
+                    &:hover{
+                        color: $colorprincipal;
+                        cursor: pointer;
+                        font-size:22px;
+                        border-bottom: 2px solid $colorprincipal;
+                    }
+                }
+            }
+        }
+    }
+}

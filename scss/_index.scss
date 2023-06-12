@@ -1,0 +1,144 @@
+/* Primer sector */
+.principal{
+    .principal__contenido{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        .sneaker{
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            border: 2px solid $colorprincipal;
+            .sneaker__encabezado{
+                position: relative;
+                .sneaker__encabezado-imagen{
+                    width: 100%;
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+            .sneaker__titulo{
+                margin-bottom: 20px;
+                font-size: 20px;
+                text-align: center;
+            }
+            .sneaker__descripcion{
+                height: 50px;
+                text-align: center;
+                color: gray;
+            }
+            .sneaker__enlace{
+                background-color: $colorprincipal;
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+                border-radius: 10px;
+                color: white;
+                padding: 15px 0;
+            }
+        }
+    }
+}
+/* Segundo sector */
+.promociones{
+    .promociones__contenido{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        color: $colorprincipal;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 5px;
+        border-radius: 5px;
+        font-weight: 200;
+        li{
+            background-color: white;
+            margin: 0 30px;
+        }
+    }
+}
+/* Tercer sector */
+.presentacion{
+    .presentacion__contenido{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        h1{
+            color: $colorprincipal;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            font-size: 40px;
+        }
+        p{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        button{
+            border: 3px solid $colorprincipal;
+            background-color: white;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+            padding: 5px;
+            &:hover{
+                background-color: $colorprincipal;
+            }
+            a{
+                color: black;
+                background-color: transparent;
+                font-size: 15px;
+                padding: 5px;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+/* Cuerto sector */
+.modelos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-weight: 200;
+    .modelo1{
+        width: 1200px;
+        height: 500px;
+    }
+    .modelo2{
+        width: 595px;
+        height: 300px;
+        margin-right: 2.5px;
+    }
+    .modelo3{
+        width: 595px;
+        height: 300px;
+        margin-left: 2.5px;
+    }
+}

@@ -1,0 +1,52 @@
+.novedades{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    .novedades-foto{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        .novedades-foto__foto{
+            width: 1200px;
+            height: 300px;
+        }
+        .novedades-foto__titulo{
+            position: absolute;
+            color: white;
+            top: 30%;
+            left: 52%;
+            transform: translate(-50%, -50%);
+            background-color: transparent;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            .novedad-uno{
+                width: 1200px;
+                height: 600px;
+            }
+            .novedad-dos{
+                width: 400px;
+                height: 300px;
+            }
+            .novedad-tres{
+                width: 796px;
+                height: 300px;
+            }
+            .foto-local{
+                width: 1200px;
+                height: 400px;
+            }
+            .novedad-cuatro{
+                width: 700px;
+                height: 300px;
+            }
+            .novedad-cinco{
+                width: 496px;
+                height: 300px;
+            }
+        }
+    }
+}
