@@ -8,10 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
     <title>Snakers Cordoba</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
     <header class="header">
+        <div class="header__anuncio">
+            <h1>ENVIOS GRATIS A PARTIR DE $35.000</h1>
+        </div>
         <div class="header__contenido">
             <!-- Logo -->
             <a class="header__contenido-logo" href="./index.html">
@@ -31,7 +35,7 @@
     <!-- Contenido -->
     <main>
         <section class="productos">
-            <h1 class="productos__titulo">SNEAKERS</h1>
+            <h1 class="productos__titulo" data-aos="flip-up">SNEAKERS</h1>
             <div class="productos__contenido">
                 <!-- Sneakers -->
                 <article class="sneaker">
@@ -167,5 +171,7 @@
             <li><a href="">Ubicación</a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({easing: 'ease-out-back',duration: 2000});</script>
 </body>
 </html>

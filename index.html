@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
     <title>Sneakers Cordoba</title>
-    <link rel="stylesheet" href="./css/style.css" />  
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />  
 </head>
 <body>
     <!-- Header -->
@@ -38,7 +39,7 @@
         <!-- Primer sector -->
         <section class="principal">
             <div class="principal__contenido">
-                <article class="sneaker">
+                <article class="sneaker" data-aos="zoom-in">
                     <div class="sneaker__encabezado">
                         <img class="sneaker__encabezado-imagen" src="./recursos/imagenes/zapatillas/1.jpg" alt="foto-producto" width="360" height="150" />
                     </div>
@@ -48,7 +49,7 @@
                     <p class="sneaker__titulo">$35.000</p>
                     <a href="" class="sneaker__enlace">Comprar</a>
                 </article>
-                <article class="sneaker">
+                <article class="sneaker" data-aos="zoom-in">
                     <div class="sneaker__encabezado">
                         <img class="sneaker__encabezado-imagen" src="./recursos/imagenes/zapatillas/2.jpg" alt="foto-producto" width="360" height="150" />
                     </div>
@@ -58,7 +59,7 @@
                     <p class="sneaker__titulo">$35.000</p>
                     <a href="" class="sneaker__enlace">Comprar</a>
                 </article>
-                <article class="sneaker">
+                <article class="sneaker" data-aos="zoom-in">
                     <div class="sneaker__encabezado">
                         <img class="sneaker__encabezado-imagen" src="./recursos/imagenes/zapatillas/3.jpg" alt="foto-producto" width="360" height="150" />
                     </div>
@@ -72,7 +73,8 @@
         </section>
         <!-- Segundo sector -->
         <section class="promociones">
-            <ul class="promociones__contenido">
+            <ul class="promociones__contenido" data-aos="fade-up"
+            data-aos-duration="3000">
                 <li>6 Cuotas sin interés</li>
                 <li>10% descuénto en la segunda unidad</li>
                 <li>Evíos a todo el país</li>
@@ -80,7 +82,8 @@
         </section>
         <!-- Tercer sector -->
         <section class="presentacion">
-            <div class="presentacion__contenido">
+            <div class="presentacion__contenido" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
                 <h2>QUIENES SOMOS</h2>
                 <p>Somos una tienda online dedicada a la venta de zapatillas. Con mas de 10 años en el mercado, les traemos productos unicos y 100% originales </p>
                 <div class="presentacion__contenido-button">
@@ -91,9 +94,9 @@
         <!-- Cuarto sector -->
         <section class="modelos">
             <div class="modelos__contenido">
-                <img src="./recursos/imagenes/modelo2.jpg" alt="modelo1" class="modelo1"  />
-                <img src="./recursos/imagenes/modelo1.jpg" alt="modelo2" class="modelo2"  />
-                <img src="./recursos/imagenes/modelo3.jpg" alt="modelo3" class="modelo3"  />
+                <img src="./recursos/imagenes/modelo2.jpg" alt="modelo1" class="modelo1" data-aos="zoom-out" />
+                <img src="./recursos/imagenes/modelo1.jpg" alt="modelo2" class="modelo2" data-aos="zoom-out" />
+                <img src="./recursos/imagenes/modelo3.jpg" alt="modelo3" class="modelo3" data-aos="zoom-out" />
             </div>
         </section>    
     </main>
@@ -105,5 +108,7 @@
             <li><a href="">Ubicación</a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({easing: 'ease-out-back',duration: 2000});</script>
 </body>
 </html>

@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
     <title>Snakers Cordoba</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
@@ -30,7 +31,8 @@
     </header>
     <!-- Contenido -->
     <main>
-        <section class="nosotros">
+        <section class="nosotros" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <div class="nosotros__contenido">
                 <!-- Titulos -->
                 <h1 class="titulo-nosotros">MAS DE 10 AÑOS CON USTEDES</h1>
@@ -45,7 +47,8 @@
         </section>
         <!-- Video -->
         <section class="video">
-            <div class="video__contenido">
+            <div class="video__contenido" data-aos="fade-up"
+            data-aos-duration="3000">
                 <video autoplay muted class="video1">
                     <source src="../recursos/videos/videonike.mp4" alt="video-nike" />
                 </video>
@@ -60,5 +63,7 @@
             <li><a href="">Ubicación</a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({easing: 'ease-out-back',duration: 2000});</script>
 </body>
 </html>

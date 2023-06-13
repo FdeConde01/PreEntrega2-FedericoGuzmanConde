@@ -8,6 +8,9 @@ header{
         display: flex;
         justify-content: center;
         margin: 0 auto;
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
         h1{
             background-color: white;
             color: $colorprincipal;

@@ -1,3 +1,12 @@
+/* Animaciones */
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
 header {
   margin-bottom: 40px;
   background-color: white; }
@@ -7,7 +16,10 @@ header {
     max-width: 1200px;
     display: flex;
     justify-content: center;
-    margin: 0 auto; }
+    margin: 0 auto;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite; }
     header .header__anuncio h1 {
       background-color: white;
       color: #730097;
@@ -269,7 +281,7 @@ header {
     text-align: justify; }
 
 .video {
-  background-color: black;
+  background-color: white;
   display: flex;
   max-width: 1200px;
   margin: 0 auto;

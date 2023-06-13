@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
     <title>Snakers Cordoba</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
@@ -30,7 +31,7 @@
     </header>
     <!-- Contenido -->
     <main>
-        <section class="formulario">
+        <section class="formulario" data-aos="fade-left">
             <form action="" class="formulario__contenido">
                 <!-- Formulario -->
                 <h1 class="formulario__contenido-h1">Si quiere que nosotros lo contactemos: </h1>
@@ -44,7 +45,7 @@
                 <button class="button" type="submit" class="enviar">Enviar</button>
             </form>
         </section>
-        <section class="contacto">
+        <section class="contacto" data-aos="fade-left">
             <div class="contacto__contenido">
                 <h2 class="contacto__contenido-h1">Nuestros numeros de contactos son: </h2>
                 <P>3513565350</P>
@@ -60,5 +61,7 @@
             <li><a href="">Ubicación</a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({easing: 'ease-out-back',duration: 2000});</script>
 </body>
 </html>
