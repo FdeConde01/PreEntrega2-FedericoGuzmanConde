@@ -421,63 +421,63 @@ ul {
     .header .header__anuncio h1 {
       font-size: 15px; }
   /* index */
-  .principal__contenido {
+  .principal .principal__contenido {
     gap: 10px;
     margin: 5px; }
-    .principal__contenido .sneaker {
+    .principal .principal__contenido .sneaker {
       padding: 10px; }
-      .principal__contenido .sneaker .sneaker__encabezado-imagen {
+      .principal .principal__contenido .sneaker .sneaker__encabezado .sneaker__encabezado-imagen {
         height: 90px;
         margin-bottom: 5px; }
-      .principal__contenido .sneaker .sneaker__enlace {
+      .principal .principal__contenido .sneaker .sneaker__enlace {
         border-radius: 10px;
         padding: 5px 0; }
-      .principal__contenido .sneaker .sneaker__descripcion {
+      .principal .principal__contenido .sneaker .sneaker__descripcion {
         height: 20px; }
-      .principal__contenido .sneaker .sneaker__titulo {
+      .principal .principal__contenido .sneaker .sneaker__titulo {
         margin-bottom: 20px;
         height: 20px;
         font-size: 15px; }
-  .promociones__contenido {
+  .promociones .promociones__contenido {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px; }
-    .promociones__contenido h1 {
-      font-size: 30px; }
-    .promociones__contenido p {
-      margin: 10px;
-      font-size: 18px; }
-    .promociones__contenido button {
-      margin-top: 0px; }
-  .modelos .modelo1 {
+  .presentacion .presentacion__contenido h1 {
+    font-size: 30px; }
+  .presentacion .presentacion__contenido p {
+    margin: 10px;
+    font-size: 18px; }
+  .presentacion .presentacion__contenido button {
+    margin-top: 0px; }
+  .modelos .modelos__contenido .modelo1 {
     width: 576px;
     height: 300px; }
-  .modelos .modelo2 {
+  .modelos .modelos__contenido .modelo2 {
     width: 280px;
     height: 200px; }
-  .modelos .modelo3 {
+  .modelos .modelos__contenido .modelo3 {
     width: 280px;
     height: 200px; }
   /* nosotros */
-  .nosotros__contenido {
+  .nosotros .nosotros__contenido {
     margin: 10px; }
-    .nosotros__contenido .titulo-somos {
+    .nosotros .nosotros__contenido .titulo-somos {
       font-size: 30px; }
-    .nosotros__contenido .titulo-nosotros {
+    .nosotros .nosotros__contenido .titulo-nosotros {
       margin-top: 0px;
       font-size: 15px; }
-    .nosotros__contenido .titulo-abajo {
+    .nosotros .nosotros__contenido .titulo-abajo {
       margin-top: 10px;
       font-size: 20px; }
-    .nosotros__contenido p {
+    .nosotros .nosotros__contenido p {
       color: black;
       margin-top: 10px;
       font-size: 20px; }
   .video {
     background-color: white;
     margin-top: 5px; }
-    .video .video1 {
+    .video .video__contenido .video1 {
       width: 565px;
       margin: 0 5px;
       background-color: white; }
@@ -488,6 +488,20 @@ ul {
   .productos .productos__contenido {
     gap: 10px;
     margin: 10px; }
+    .productos .productos__contenido .sneaker {
+      padding: 10px; }
+      .productos .productos__contenido .sneaker .sneaker__encabezado .sneaker__encabezado-imagen {
+        height: 90px;
+        margin-bottom: 5px; }
+      .productos .productos__contenido .sneaker .sneaker__enlace {
+        border-radius: 10px;
+        padding: 5px 0; }
+      .productos .productos__contenido .sneaker .sneaker__descripcion {
+        height: 20px; }
+      .productos .productos__contenido .sneaker .sneaker__titulo {
+        margin-bottom: 20px;
+        height: 20px;
+        font-size: 15px; }
   .productos .productos__titulo-final {
     margin-top: 10px;
     font-size: 15px; }
@@ -500,7 +514,7 @@ ul {
       margin-top: 5px; }
     .formulario .formulario__contenido .button {
       width: 80px; }
-  .contacto__contenido {
+  .contacto .contacto__contenido {
     width: 400px; }
-    .contacto__contenido .contacto__contenido-h1 {
+    .contacto .contacto__contenido .contacto__contenido-h1 {
       font-size: 25px; } }

@@ -31,86 +31,102 @@ ul{
         }
     }
     /* index */
-    .principal__contenido{
-        gap: 10px;
-        margin: 5px;
-        .sneaker{
-            padding: 10px;
-            .sneaker__encabezado-imagen{
-                height: 90px;
-                margin-bottom: 5px;
-            }
-            .sneaker__enlace{
-                border-radius: 10px;
-                padding: 5px 0;
-            }
-            .sneaker__descripcion{
-                height: 20px;
-            }
-            .sneaker__titulo{
-                margin-bottom: 20px;
-                height: 20px;
-                font-size: 15px;
+    .principal{
+        .principal__contenido{
+            gap: 10px;
+            margin: 5px;
+            .sneaker{
+                padding: 10px;
+                .sneaker__encabezado{
+                    .sneaker__encabezado-imagen{
+                        height: 90px;
+                        margin-bottom: 5px;
+                    }
+                }
+                .sneaker__enlace{
+                    border-radius: 10px;
+                    padding: 5px 0;
+                }
+                .sneaker__descripcion{
+                    height: 20px;
+                }
+                .sneaker__titulo{
+                    margin-bottom: 20px;
+                    height: 20px;
+                    font-size: 15px;
+                }
             }
         }
     }
-    .promociones__contenido{
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 5px;
-        h1{
-            font-size: 30px;
-        }
-        p{
-            margin: 10px;
+    .promociones{
+        .promociones__contenido{
             font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 5px;
         }
-        button{
-            margin-top: 0px;
+    }
+    .presentacion{
+        .presentacion__contenido{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                margin: 10px;
+                font-size: 18px;
+            }
+            button{
+                margin-top: 0px;
+            }
         }
     }
     .modelos{
-        .modelo1{
-            width: 576px;
-            height: 300px;
-        }
-        .modelo2{
-            width: 280px;
-            height: 200px;
-        }
-        .modelo3{
-            width: 280px;
-            height: 200px;
+        .modelos__contenido{
+            .modelo1{
+                width: 576px;
+                height: 300px;
+            }
+            .modelo2{
+                width: 280px;
+                height: 200px;
+            }
+            .modelo3{
+                width: 280px;
+                height: 200px;
+            }
         }
     }
     /* nosotros */
-    .nosotros__contenido{
-        margin: 10px;
-        .titulo-somos{
-            font-size: 30px;
-        }
-        .titulo-nosotros{
-            margin-top: 0px;
-            font-size: 15px;
-        }
-        .titulo-abajo{
-            margin-top: 10px;
-            font-size: 20px;
-        }
-        p{
-            color: black;
-            margin-top: 10px;
-            font-size: 20px;
+    .nosotros{
+        .nosotros__contenido{
+            margin: 10px;
+            .titulo-somos{
+                font-size: 30px;
+            }
+            .titulo-nosotros{
+                margin-top: 0px;
+                font-size: 15px;
+            }
+            .titulo-abajo{
+                margin-top: 10px;
+                font-size: 20px;
+            }
+            p{
+                color: black;
+                margin-top: 10px;
+                font-size: 20px;
+            }
         }
     }
     .video{
         background-color: white;
         margin-top: 5px;
-        .video1{
-            width: 565px;
-            margin: 0 5px;
-            background-color: white;
+        .video__contenido{
+            .video1{
+                width: 565px;
+                margin: 0 5px;
+                background-color: white;
+            }
         }
     }
     /* productos */
@@ -122,6 +138,27 @@ ul{
         .productos__contenido{
             gap: 10px;
             margin: 10px;
+            .sneaker{
+                padding: 10px;
+                .sneaker__encabezado{
+                    .sneaker__encabezado-imagen{
+                        height: 90px;
+                        margin-bottom: 5px;
+                    }
+                }
+                .sneaker__enlace{
+                    border-radius: 10px;
+                    padding: 5px 0;
+                }
+                .sneaker__descripcion{
+                    height: 20px;
+                }
+                .sneaker__titulo{
+                    margin-bottom: 20px;
+                    height: 20px;
+                    font-size: 15px;
+                }
+            }
         }
         .productos__titulo-final {
             margin-top: 10px;
@@ -142,10 +179,12 @@ ul{
             }
         }
     }
-    .contacto__contenido{
-        width: 400px;
-        .contacto__contenido-h1{
-            font-size: 25px;
+    .contacto{
+        .contacto__contenido{
+            width: 400px;
+            .contacto__contenido-h1{
+                font-size: 25px;
+            }
         }
     }
 }
