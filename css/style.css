@@ -451,8 +451,15 @@ body {
     margin-bottom: 10px; }
     .header .header__contenido {
       flex-direction: column; }
+      .header .header__contenido .header__contenido-logo img {
+        width: 130px;
+        height: 90px; }
+      .header .header__contenido .header__contenido-navbar {
+        font-size: 15px; }
+        .header .header__contenido .header__contenido-navbar li {
+          margin-bottom: 10px; }
     .header .header__anuncio h1 {
-      font-size: 15px; }
+      font-size: 10px; }
   /* index */
   .principal .principal__contenido {
     gap: 10px;
@@ -476,13 +483,15 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px; }
-  .presentacion .presentacion__contenido h1 {
-    font-size: 30px; }
+  .presentacion .presentacion__contenido h2 {
+    font-size: 25px; }
   .presentacion .presentacion__contenido p {
-    margin: 10px;
-    font-size: 18px; }
+    margin: 20px;
+    font-size: 15px; }
   .presentacion .presentacion__contenido button {
     margin-top: 0px; }
+    .presentacion .presentacion__contenido button a {
+      font-size: 12px; }
   .modelos .modelos__contenido .modelo1 {
     width: 576px;
     height: 300px; }
@@ -492,21 +501,23 @@ body {
   .modelos .modelos__contenido .modelo3 {
     width: 280px;
     height: 200px; }
+  .modelos .modelos__contenido button a {
+    font-size: 12px; }
   /* nosotros */
   .nosotros .nosotros__contenido {
     margin: 10px; }
     .nosotros .nosotros__contenido .titulo-somos {
-      font-size: 30px; }
+      font-size: 25px; }
     .nosotros .nosotros__contenido .titulo-nosotros {
       margin-top: 0px;
-      font-size: 15px; }
+      font-size: 12px; }
     .nosotros .nosotros__contenido .titulo-abajo {
       margin-top: 10px;
       font-size: 20px; }
     .nosotros .nosotros__contenido p {
       color: black;
       margin-top: 10px;
-      font-size: 20px; }
+      font-size: 18px; }
   .video {
     background-color: white;
     margin-top: 5px; }
@@ -519,8 +530,8 @@ body {
     margin-bottom: 10px;
     font-size: 25px; }
   .productos .productos__contenido {
-    gap: 10px;
-    margin: 10px; }
+    margin: 10px 20px 0px;
+    grid-template-columns: repeat(2, 1fr); }
     .productos .productos__contenido .sneaker {
       padding: 10px; }
       .productos .productos__contenido .sneaker .sneaker__encabezado .sneaker__encabezado-imagen {
@@ -536,8 +547,8 @@ body {
         height: 20px;
         font-size: 15px; }
   .productos .productos__titulo-final {
-    margin-top: 10px;
-    font-size: 15px; }
+    margin-top: 20px;
+    font-size: 20px; }
   /* Contacto */
   .formulario .formulario__contenido {
     margin-top: 5px;

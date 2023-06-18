@@ -31,9 +31,21 @@ body{
         margin-bottom: 10px;
         .header__contenido{
             flex-direction: column;
+            .header__contenido-logo{
+                img{
+                    width: 130px;
+                    height: 90px;
+                }
+            }
+            .header__contenido-navbar{
+                font-size: 15px;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
         }
         .header__anuncio h1{
-            font-size: 15px;
+            font-size: 10px;
         }
     }
     /* index */
@@ -74,15 +86,18 @@ body{
     }
     .presentacion{
         .presentacion__contenido{
-            h1{
-                font-size: 30px;
+            h2{
+                font-size: 25px;
             }
             p{
-                margin: 10px;
-                font-size: 18px;
+                margin: 20px;
+                font-size: 15px;
             }
             button{
                 margin-top: 0px;
+                a{
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -100,6 +115,11 @@ body{
                 width: 280px;
                 height: 200px;
             }
+            button{
+                a{
+                    font-size: 12px;
+                }
+            }
         }
     }
     /* nosotros */
@@ -107,11 +127,11 @@ body{
         .nosotros__contenido{
             margin: 10px;
             .titulo-somos{
-                font-size: 30px;
+                font-size: 25px;
             }
             .titulo-nosotros{
                 margin-top: 0px;
-                font-size: 15px;
+                font-size: 12px;
             }
             .titulo-abajo{
                 margin-top: 10px;
@@ -120,7 +140,7 @@ body{
             p{
                 color: black;
                 margin-top: 10px;
-                font-size: 20px;
+                font-size: 18px;
             }
         }
     }
@@ -142,8 +162,8 @@ body{
             font-size: 25px;
         }
         .productos__contenido{
-            gap: 10px;
-            margin: 10px;
+            margin: 10px 20px 0px;
+            grid-template-columns: repeat(2, 1fr);
             .sneaker{
                 padding: 10px;
                 .sneaker__encabezado{
@@ -167,8 +187,8 @@ body{
             }
         }
         .productos__titulo-final {
-            margin-top: 10px;
-            font-size: 15px;
+            margin-top: 20px;
+            font-size: 20px;
         }
     }
     /* Contacto */
