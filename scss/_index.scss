@@ -8,7 +8,7 @@
         margin: 0 auto;
         .sneaker{
             background-color: white;
-            border-radius: 10px;
+            border-radius: 40px;
             padding: 20px;
             border: 2px solid $colorprincipal;
             .sneaker__encabezado{
@@ -16,19 +16,22 @@
                 background: none;
                 .sneaker__encabezado-imagen{
                     background: none;
-                    width: 100%;
+                    width: 90%;
                     border-radius: 10px;
                     margin-bottom: 20px;
+                    display: flex;
+                    margin: 0 auto;
                 }
             }
             .sneaker__titulo{
                 background: none;
+                margin-top: 10px;
                 margin-bottom: 20px;
                 font-size: 20px;
                 text-align: center;
             }
             .sneaker__descripcion{
-                height: 50px;
+                height: 30px;
                 text-align: center;
                 color: grey;
                 background: none;

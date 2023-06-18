@@ -72,7 +72,7 @@ header {
   margin: 0 auto; }
   .principal .principal__contenido .sneaker {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 40px;
     padding: 20px;
     border: 2px solid #730097; }
     .principal .principal__contenido .sneaker .sneaker__encabezado {
@@ -80,16 +80,19 @@ header {
       background: none; }
       .principal .principal__contenido .sneaker .sneaker__encabezado .sneaker__encabezado-imagen {
         background: none;
-        width: 100%;
+        width: 90%;
         border-radius: 10px;
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        display: flex;
+        margin: 0 auto; }
     .principal .principal__contenido .sneaker .sneaker__titulo {
       background: none;
+      margin-top: 10px;
       margin-bottom: 20px;
       font-size: 20px;
       text-align: center; }
     .principal .principal__contenido .sneaker .sneaker__descripcion {
-      height: 50px;
+      height: 30px;
       text-align: center;
       color: grey;
       background: none; }
@@ -377,7 +380,7 @@ header {
   margin: 0 auto; }
   .productos .productos__contenido .sneaker {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 40px;
     padding: 20px;
     border: 2px solid #730097; }
     .productos .productos__contenido .sneaker .sneaker__encabezado {
@@ -396,12 +399,14 @@ header {
       color: gray; }
     .productos .productos__contenido .sneaker .sneaker__enlace {
       background-color: #730097;
-      display: inline-block;
-      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 200px;
       text-align: center;
       border-radius: 10px;
       color: white;
-      padding: 15px 0; }
+      padding: 10px 0; }
 
 .productos .productos__titulo-final {
   margin-bottom: 20px;
@@ -464,20 +469,24 @@ body {
         font-size: 15px; }
         .header .header__contenido .header__contenido-navbar li {
           margin-bottom: 10px; }
-    .header .header__anuncio h1 {
-      font-size: 10px; }
+    .header .header__anuncio h2 {
+      font-size: 15px; }
   /* index */
   .principal .principal__contenido {
     gap: 10px;
-    margin: 5px; }
+    margin: 0px 10px; }
     .principal .principal__contenido .sneaker {
       padding: 10px; }
       .principal .principal__contenido .sneaker .sneaker__encabezado .sneaker__encabezado-imagen {
-        height: 90px;
+        height: 70px;
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
         margin-bottom: 5px; }
       .principal .principal__contenido .sneaker .sneaker__enlace {
         border-radius: 10px;
-        padding: 5px 0; }
+        padding: 5px 0;
+        width: 120px; }
       .principal .principal__contenido .sneaker .sneaker__descripcion {
         height: 20px; }
       .principal .principal__contenido .sneaker .sneaker__titulo {
@@ -498,17 +507,19 @@ body {
     margin-top: 0px; }
     .presentacion .presentacion__contenido button a {
       font-size: 12px; }
-  .modelos .modelos__contenido .modelo1 {
-    width: 576px;
-    height: 300px; }
-  .modelos .modelos__contenido .modelo2 {
-    width: 280px;
-    height: 200px; }
-  .modelos .modelos__contenido .modelo3 {
-    width: 280px;
-    height: 200px; }
-  .modelos .modelos__contenido button a {
-    font-size: 12px; }
+  .modelos {
+    padding: 0; }
+    .modelos .modelos__contenido .modelo1 {
+      width: 576px;
+      height: 300px; }
+    .modelos .modelos__contenido .modelo2 {
+      width: 280px;
+      height: 200px; }
+    .modelos .modelos__contenido .modelo3 {
+      width: 280px;
+      height: 200px; }
+    .modelos .modelos__contenido button a {
+      font-size: 12px; }
   /* nosotros */
   .nosotros .nosotros__contenido {
     margin: 10px; }
@@ -541,11 +552,15 @@ body {
     .productos .productos__contenido .sneaker {
       padding: 10px; }
       .productos .productos__contenido .sneaker .sneaker__encabezado .sneaker__encabezado-imagen {
-        height: 90px;
+        height: 80px;
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
         margin-bottom: 5px; }
       .productos .productos__contenido .sneaker .sneaker__enlace {
         border-radius: 10px;
-        padding: 5px 0; }
+        padding: 5px 0;
+        width: 120px; }
       .productos .productos__contenido .sneaker .sneaker__descripcion {
         height: 20px; }
       .productos .productos__contenido .sneaker .sneaker__titulo {

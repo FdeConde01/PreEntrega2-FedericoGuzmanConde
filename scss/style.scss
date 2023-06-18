@@ -44,26 +44,30 @@ body{
                 }
             }
         }
-        .header__anuncio h1{
-            font-size: 10px;
+        .header__anuncio h2{
+            font-size: 15px;
         }
     }
     /* index */
     .principal{
         .principal__contenido{
             gap: 10px;
-            margin: 5px;
+            margin: 0px 10px;
             .sneaker{
                 padding: 10px;
                 .sneaker__encabezado{
                     .sneaker__encabezado-imagen{
-                        height: 90px;
+                        height: 70px;
+                        width: 90%;
+                        display: flex;
+                        margin: 0 auto;
                         margin-bottom: 5px;
                     }
                 }
                 .sneaker__enlace{
                     border-radius: 10px;
                     padding: 5px 0;
+                    width: 120px;
                 }
                 .sneaker__descripcion{
                     height: 20px;
@@ -102,6 +106,7 @@ body{
         }
     }
     .modelos{
+        padding: 0;
         .modelos__contenido{
             .modelo1{
                 width: 576px;
@@ -168,13 +173,17 @@ body{
                 padding: 10px;
                 .sneaker__encabezado{
                     .sneaker__encabezado-imagen{
-                        height: 90px;
+                        height: 80px;
+                        width: 80%;
+                        display: flex;
+                        margin: 0 auto;
                         margin-bottom: 5px;
                     }
                 }
                 .sneaker__enlace{
                     border-radius: 10px;
                     padding: 5px 0;
+                    width: 120px;
                 }
                 .sneaker__descripcion{
                     height: 20px;
