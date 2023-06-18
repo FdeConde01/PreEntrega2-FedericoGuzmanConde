@@ -1,8 +1,8 @@
 header{
     margin-bottom: 40px;
-    background-color: white;
+    background-color: black;
     .header__anuncio{
-        background-color: white;
+        background-color: black;
         text-align: center;
         max-width: 1200px;
         display: flex;
@@ -11,12 +11,13 @@ header{
         animation-duration: 3s;
         animation-name: aparecer;
         animation-iteration-count: infinite;
-        h1{
+        .header__anuncio-titulo{
             background-color: white;
             color: $colorprincipal;
             font-size: 20px;
             font-family: 'Times New Roman', Times, serif;
             font-weight: 200;
+            background-color: black;
         }
     }
     .header__contenido{
@@ -26,12 +27,15 @@ header{
         max-width: 1200px;
         margin: 0 auto;
         border-bottom: 1px solid $colorprincipal;
+        background-color: black;
         .header__contenido-logo{
+            background-color: black;
             img{
-                width: 200px;
-                height: 100px;
+                width: 150px;
+                height: 120px;
                 margin-top: 10px;
                 margin-bottom: 10px;
+                background-color: black;
             }
         }
         .header__contenido-navbar{
@@ -41,10 +45,13 @@ header{
             font-size: 20px;
             color: black;
             text-align: right;
+            background-color: black;
             li{
                 margin: 0 15px;
+                background-color: black;
                 a{
-                    color: black;
+                    color: white;
+                    background-color: black;
                     &:hover{
                         color: $colorprincipal;
                         cursor: pointer;

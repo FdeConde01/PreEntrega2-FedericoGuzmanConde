@@ -9,9 +9,9 @@
 
 header {
   margin-bottom: 40px;
-  background-color: white; }
+  background-color: black; }
   header .header__anuncio {
-    background-color: white;
+    background-color: black;
     text-align: center;
     max-width: 1200px;
     display: flex;
@@ -20,35 +20,43 @@ header {
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: infinite; }
-    header .header__anuncio h1 {
+    header .header__anuncio .header__anuncio-titulo {
       background-color: white;
       color: #730097;
       font-size: 20px;
       font-family: 'Times New Roman', Times, serif;
-      font-weight: 200; }
+      font-weight: 200;
+      background-color: black; }
   header .header__contenido {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    border-bottom: 1px solid #730097; }
-    header .header__contenido .header__contenido-logo img {
-      width: 200px;
-      height: 100px;
-      margin-top: 10px;
-      margin-bottom: 10px; }
+    border-bottom: 1px solid #730097;
+    background-color: black; }
+    header .header__contenido .header__contenido-logo {
+      background-color: black; }
+      header .header__contenido .header__contenido-logo img {
+        width: 150px;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: black; }
     header .header__contenido .header__contenido-navbar {
       display: flex;
       font-family: 'Times New Roman', Times, serif;
       font-style: italic;
       font-size: 20px;
       color: black;
-      text-align: right; }
+      text-align: right;
+      background-color: black; }
       header .header__contenido .header__contenido-navbar li {
-        margin: 0 15px; }
+        margin: 0 15px;
+        background-color: black; }
         header .header__contenido .header__contenido-navbar li a {
-          color: black; }
+          color: white;
+          background-color: black; }
           header .header__contenido .header__contenido-navbar li a:hover {
             color: #730097;
             cursor: pointer;
@@ -176,6 +184,22 @@ header {
     width: 595px;
     height: 300px;
     margin-left: 2.5px; }
+  .modelos button {
+    border: 3px solid #730097;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px; }
+    .modelos button:hover {
+      background-color: #730097; }
+    .modelos button a {
+      color: black;
+      background-color: transparent;
+      font-size: 15px;
+      padding: 5px; }
+      .modelos button a:hover {
+        color: white; }
 
 .formulario {
   background-color: white;
@@ -302,7 +326,8 @@ header {
     text-align: center; }
     .novedades .novedades-foto .novedades-foto__foto {
       width: 1200px;
-      height: 300px; }
+      height: 300px;
+      position: relative; }
     .novedades .novedades-foto .novedades-foto__titulo {
       position: absolute;
       color: white;
@@ -313,24 +338,24 @@ header {
       font-size: 60px;
       font-family: 'Times New Roman', Times, serif;
       font-style: italic; }
-      .novedades .novedades-foto .novedades-foto__titulo .novedad-uno {
-        width: 1200px;
-        height: 600px; }
-      .novedades .novedades-foto .novedades-foto__titulo .novedad-dos {
-        width: 400px;
-        height: 300px; }
-      .novedades .novedades-foto .novedades-foto__titulo .novedad-tres {
-        width: 796px;
-        height: 300px; }
-      .novedades .novedades-foto .novedades-foto__titulo .foto-local {
-        width: 1200px;
-        height: 400px; }
-      .novedades .novedades-foto .novedades-foto__titulo .novedad-cuatro {
-        width: 700px;
-        height: 300px; }
-      .novedades .novedades-foto .novedades-foto__titulo .novedad-cinco {
-        width: 496px;
-        height: 300px; }
+  .novedades .novedades-foto-producto .novedad-uno {
+    width: 1200px;
+    height: 600px; }
+  .novedades .novedades-foto-producto .novedad-dos {
+    width: 400px;
+    height: 300px; }
+  .novedades .novedades-foto-producto .novedad-tres {
+    width: 796px;
+    height: 300px; }
+  .novedades .novedades-foto-producto .foto-local {
+    width: 1200px;
+    height: 400px; }
+  .novedades .novedades-foto-producto .novedad-cuatro {
+    width: 700px;
+    height: 300px; }
+  .novedades .novedades-foto-producto .novedad-cinco {
+    width: 496px;
+    height: 300px; }
 
 .productos .productos__titulo {
   margin-bottom: 40px;
@@ -379,26 +404,28 @@ header {
   font-size: 20px;
   color: #730097; }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  height: 50px;
-  margin: 0 auto;
-  background-color: black;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-  color: black;
-  text-align: center;
-  margin-top: 20px; }
-  .footer li {
-    background-color: black; }
-    .footer li a {
-      color: white;
-      font-weight: 400;
-      margin: 10px;
+footer {
+  background-color: black; }
+  footer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    footer .footer li {
       background-color: black; }
+      footer .footer li a {
+        color: white;
+        font-weight: 400;
+        margin: 10px;
+        background-color: black; }
 
 * {
   margin: 0;
@@ -411,6 +438,12 @@ a {
 
 ul {
   list-style-type: none; }
+
+body {
+  margin: 0;
+  position: relative;
+  padding-bottom: 70px;
+  min-height: 100vh; }
 
 /* Mobile last */
 @media (max-width: 576px) {

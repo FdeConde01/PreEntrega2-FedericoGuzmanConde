@@ -141,4 +141,24 @@
         height: 300px;
         margin-left: 2.5px;
     }
+    button{
+        border: 3px solid $colorprincipal;
+        background-color: white;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 30px;
+        padding: 5px;
+        &:hover{
+            background-color: $colorprincipal;
+        }
+        a{
+            color: black;
+            background-color: transparent;
+            font-size: 15px;
+            padding: 5px;
+            &:hover{
+                color: white;
+            }
+        }
+    }
 }
